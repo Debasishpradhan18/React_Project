@@ -1,9 +1,12 @@
-import React from 'react'
+function Navbar() {
+    const name = "Debasish";
 
-export const Navbar = () => {
-  return (
-     <h1>Welcome to React</h1>
-  )
+    return (
+        <>
+            <h1>Welcome to React</h1>
+            <h2>Hello {name}</h2>
+        </>
+    );
 }
 
 export default Navbar;
